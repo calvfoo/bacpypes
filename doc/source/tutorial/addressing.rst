@@ -35,7 +35,7 @@ Local Stations
 The Address class is the base class from which the other classes are derived,
 but for this tutorial, we'll start with the simplest::
 
-    >>> from bacpypes.pdu import LocalStation
+    >>> from bacpypes.pdu import Address
 
 Local station addresses are one or more octets of binary data.  For the
 simplest networks they are a single octet, for Ethernet and BACnet/IP they
